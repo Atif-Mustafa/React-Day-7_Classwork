@@ -1,0 +1,25 @@
+form{
+   display: grid;
+   grid-template-columns: 1fr 100px;
+  
+   input{
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    border: 1px solid lightgray;
+    background-color: #f8fafc;
+
+
+   }
+    button{
+        background-color: #06b6d4;
+        color: white;
+        padding: .375rem .75rem;
+        border-bottom-right-radius: .25rem;
+        border-top-right-radius: .25rem;
+        cursor: pointer;
+        border: 1px solid lightgray;
+    }
+    button:hover{
+        background-color: #047d93;
+    }
+}

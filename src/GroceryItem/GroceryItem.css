@@ -1,0 +1,25 @@
+.grocery_container{
+    padding:1rem;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div button{
+        color: white;
+        background-color: black;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: 100;
+    }
+}
+.gg{
+    display: flex;
+    gap: .5rem
+}
+
+.completed {
+    text-decoration: line-through;
+  }
+  
